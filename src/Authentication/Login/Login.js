@@ -12,17 +12,17 @@ function login(){
                     type="submit" 
                     value="Log in" 
                     className={[styles.button, styles.primary].join(' ')}
-                    style={{width:"70%", fontWeight:"bold", fontSize:"18px"}}
+                    style={{fontWeight:"bold", fontSize:"22px", width:"100%"}}
                 />
             </div>
             <div 
-                style={{borderTop:"solid gray 2px", marginTop:"10px", paddingTop:"10px"}}
+                style={{borderTop:"1px solid #dadde1", marginTop:"auto", padding:"25px"}}
             >
                 <input 
                     type="button" 
                     value="Create new Account" 
                     className={[styles.button, styles.success].join(' ')}
-                    style={{width:"fit-content" , fontSize:"16px"}}
+                    style={{width:"fit-content" , fontSize:"20px"}}
                 />
             </div>
         </form>
